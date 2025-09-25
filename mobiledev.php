@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-left">
+                    <div class="contact-maintext text-white text-center text-lg-start">
                         <h1>Mobile Applications <br> Development</h1>
                         <p>We create mobile apps that solve real problems and <br> deliver seamless, engaging user experiences.</p>
                     </div>

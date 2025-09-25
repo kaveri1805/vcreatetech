@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-left">
+                    <div class="contact-maintext text-white text-center text-lg-start">
                         <h1>Real Estate Development</h1>
                         <p>We craft innovative real estate platforms that <br> simplify property management and enhance user experience.</p>
                     </div>

@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-center">
+                    <div class="contact-maintext text-white text-center text-lg-start">
                         <h1>Logo Design</h1>
                         <p>We create unique logos that <br> define your brand’s identity and values.</p>
                     </div>

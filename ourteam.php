@@ -211,7 +211,7 @@
                             <div class="expert-card expert-top">
                                 <img src="images/ourteam/monica1.png" alt="">
                                 <div class="mt-3">
-                                    <h4 class="mb-1 team-name">Monica Pradhan</h4>
+                                    <h4 class="mb-1 team-name">Monica Padghan</h4>
                                     <p class="team-role mb-3">Human Resources, Head</p>
                                     <p class="team-desc mb-2">Fostering a positive work culture through strategic HR leadership. Focused on employee engagement.</p>
                                     <a href="#" target="_blank" class="linkedin-btn mt-2">

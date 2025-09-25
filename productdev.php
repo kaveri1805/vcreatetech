@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-center">
+                    <div class="contact-maintext text-white text-center text-lg-start">
                         <h1>Product Development</h1>
                         <p>We build innovative products that solve <br> real problems and enhance user experiences.</p>
                     </div>

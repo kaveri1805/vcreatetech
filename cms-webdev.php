@@ -49,7 +49,7 @@
         <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="contact-maintext text-white text-center">
+                <div class="contact-maintext text-white text-center text-lg-start">
                     <h1>CMS Based <br> Web Development</h1>
                     <p>We build flexible and scalable websites using <br> content management systems tailored to your needs.</p>
                 </div>

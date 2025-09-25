@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-left">
+                    <div class="contact-maintext text-white text-center text-lg-start">
                         <h1>Website Maintenance</h1>
                         <p>We ensure your website stays updated, secure, and <br> running smoothly at all times.</p>
                     </div>

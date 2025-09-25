@@ -311,7 +311,7 @@
                                 VCreate Technologies: India
                             </h2>
                             <p> VCreate Technologies, headquartered in India, is a dynamic technology company driving innovation through Artificial Intelligence, Blockchain, and advanced programming languages such as Python, Rust, and Solidity. The company specializes in building intelligent automation systems, decentralized platforms, and secure digital solutions tailored for modern business environments.</p>
-                            <a href="#" class="btn btn-outline-dark px-4 rounded-2 text-white" style="background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);">
+                            <a href="india.php" class="btn btn-outline-dark px-4 rounded-2 text-white" style="background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);">
                                 Read More →
                             </a>
                         </div>

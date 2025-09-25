@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-left">
+                    <div class="contact-maintext text-white text-center text-lg-start">
                         <h1>WordPress <br> Web Development</h1>
                         <p>We create feature-rich WordPress websites <br> that are easy to manage and highly customizable.</p>
                     </div>

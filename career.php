@@ -50,7 +50,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-center">
+                    <div class="contact-maintext text-white text-center text-lg-start">
                         <h1>Apply For Right Position!</h1>
                         <p>Connecting Talent with Opportunity: Your Gateway to <br> Career Success</p>
                     </div>

@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-left">
+                    <div class="contact-maintext text-white text-center text-lg-start">
                         <h1>Web Design</h1>
                         <p>We create visually stunning websites that <br> engage users and reflect your brand identity.</p>
                     </div>

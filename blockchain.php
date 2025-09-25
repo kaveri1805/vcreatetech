@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-left">
+                    <div class="contact-maintext text-white text-center text-lg-start">
                         <h1>BlockChain Development </h1>
                         <p>We build blockchain solutions that ensure secure, transparent, <br> and efficient digital transactions for real-world challenges.</p>
                     </div>

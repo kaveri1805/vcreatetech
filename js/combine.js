@@ -367,80 +367,80 @@ document.querySelectorAll('.career-dropdown details ul li').forEach(function (it
 // });
 
 const searchBtn = document.querySelector(".search-btn");
-  const jobTitleDropdowns = document.querySelectorAll(".job-title");
-  const accordionItems = document.querySelectorAll(".accordion-item");
+const jobTitleDropdowns = document.querySelectorAll(".job-title");
+const accordionItems = document.querySelectorAll(".accordion-item");
 
-  if (searchBtn && jobTitleDropdowns.length && accordionItems.length) {
-    const indiaCities = ["pune", "mumbai", "nagpur"]; // cities in accordion for India
+if (searchBtn && jobTitleDropdowns.length && accordionItems.length) {
+  const indiaCities = ["pune", "mumbai", "nagpur"]; // cities in accordion for India
 
-    function getSelectedText(detailsElem) {
-      const selected = detailsElem.querySelector("li.selected");
-      return selected ? selected.textContent.trim().toLowerCase() : "";
-    }
+  function getSelectedText(detailsElem) {
+    const selected = detailsElem.querySelector("li.selected");
+    return selected ? selected.textContent.trim().toLowerCase() : "";
+  }
 
-    // Dropdown selection
-    jobTitleDropdowns.forEach(details => {
-      const lis = details.querySelectorAll("li");
-      if (lis.length) {
-        lis.forEach(li => {
-          li.addEventListener("click", function () {
-            lis.forEach(item => item.classList.remove("selected"));
-            li.classList.add("selected");
-            details.querySelector("summary").childNodes[0].textContent = li.textContent;
-          });
+  // Dropdown selection
+  jobTitleDropdowns.forEach(details => {
+    const lis = details.querySelectorAll("li");
+    if (lis.length) {
+      lis.forEach(li => {
+        li.addEventListener("click", function () {
+          lis.forEach(item => item.classList.remove("selected"));
+          li.classList.add("selected");
+          details.querySelector("summary").childNodes[0].textContent = li.textContent;
         });
+      });
+    }
+  });
+
+  // Search button click
+  searchBtn.addEventListener("click", function () {
+    const selectedJob = getSelectedText(jobTitleDropdowns[0]);
+    const selectedLocation = getSelectedText(jobTitleDropdowns[1]);
+    const selectedCategory = getSelectedText(jobTitleDropdowns[2]);
+    let matched = false;
+
+    accordionItems.forEach(item => {
+      const text = item.textContent.toLowerCase();
+
+      const jobMatch = !selectedJob || text.includes(selectedJob);
+      const categoryMatch = !selectedCategory || text.includes(selectedCategory);
+      let locationMatch = false;
+
+      if (!selectedLocation) {
+        locationMatch = true;
+      } else if (selectedLocation === "india") {
+        locationMatch = indiaCities.some(city => text.includes(city));
+      } else {
+        locationMatch = text.includes(selectedLocation);
+      }
+
+      if (jobMatch && categoryMatch && locationMatch) {
+        // Close other accordions
+        accordionItems.forEach(o => {
+          const c = o.querySelector(".accordion-collapse");
+          if (c?.classList.contains("show")) new bootstrap.Collapse(c, { toggle: true });
+        });
+
+        // Open matched accordion
+        const collapse = item.querySelector(".accordion-collapse");
+        if (collapse && !collapse.classList.contains("show")) {
+          new bootstrap.Collapse(collapse, { toggle: true });
+          setTimeout(() => {
+            const y = item.getBoundingClientRect().top + window.scrollY - 100;
+            window.scrollTo({ top: y, behavior: "smooth" });
+          }, 350);
+        } else {
+          const y = item.getBoundingClientRect().top + window.scrollY - 100;
+          window.scrollTo({ top: y, behavior: "smooth" });
+        }
+
+        matched = true;
       }
     });
 
-    // Search button click
-    searchBtn.addEventListener("click", function () {
-      const selectedJob = getSelectedText(jobTitleDropdowns[0]);
-      const selectedLocation = getSelectedText(jobTitleDropdowns[1]);
-      const selectedCategory = getSelectedText(jobTitleDropdowns[2]);
-      let matched = false;
-
-      accordionItems.forEach(item => {
-        const text = item.textContent.toLowerCase();
-
-        const jobMatch = !selectedJob || text.includes(selectedJob);
-        const categoryMatch = !selectedCategory || text.includes(selectedCategory);
-        let locationMatch = false;
-
-        if (!selectedLocation) {
-          locationMatch = true;
-        } else if (selectedLocation === "india") {
-          locationMatch = indiaCities.some(city => text.includes(city));
-        } else {
-          locationMatch = text.includes(selectedLocation);
-        }
-
-        if (jobMatch && categoryMatch && locationMatch) {
-          // Close other accordions
-          accordionItems.forEach(o => {
-            const c = o.querySelector(".accordion-collapse");
-            if (c?.classList.contains("show")) new bootstrap.Collapse(c, { toggle: true });
-          });
-
-          // Open matched accordion
-          const collapse = item.querySelector(".accordion-collapse");
-          if (collapse && !collapse.classList.contains("show")) {
-            new bootstrap.Collapse(collapse, { toggle: true });
-            setTimeout(() => {
-              const y = item.getBoundingClientRect().top + window.scrollY - 100;
-              window.scrollTo({ top: y, behavior: "smooth" });
-            }, 350);
-          } else {
-            const y = item.getBoundingClientRect().top + window.scrollY - 100;
-            window.scrollTo({ top: y, behavior: "smooth" });
-          }
-
-          matched = true;
-        }
-      });
-
-      if (!matched) alert("No jobs found with your selected filters!");
-    });
-  }
+    if (!matched) alert("No jobs found with your selected filters!");
+  });
+}
 
 // for apply now modelpopup form
 // document.addEventListener("DOMContentLoaded", function() {
@@ -469,101 +469,128 @@ const searchBtn = document.querySelector(".search-btn");
 //     });
 // });
 
-document.addEventListener("DOMContentLoaded", function() {
-    // Use event delegation in case the form is dynamically loaded inside modal
-    document.addEventListener("submit", function(e) {
-        // Check if the submitted form is our target form
-        if (e.target && e.target.id === "jobApplyForm") {
-            e.preventDefault(); // prevent default form submission
+document.addEventListener("DOMContentLoaded", function () {
+  // Use event delegation in case the form is dynamically loaded inside modal
+  document.addEventListener("submit", function (e) {
+    // Check if the submitted form is our target form
+    if (e.target && e.target.id === "jobApplyForm") {
+      e.preventDefault(); // prevent default form submission
 
-            const form = e.target;
-            const formData = new FormData(form);
+      const form = e.target;
+      const formData = new FormData(form);
 
-            fetch("PHPMailer-master/apply-now.php", {
-                method: "POST",
-                body: formData
-            })
-            .then(res => res.text())
-            .then(data => {
-                alert(data); // Show success message
-                form.reset(); // Reset form fields
+      fetch("PHPMailer-master/apply-now.php", {
+        method: "POST",
+        body: formData
+      })
+        .then(res => res.text())
+        .then(data => {
+          alert(data); // Show success message
+          form.reset(); // Reset form fields
 
-                // Hide the Bootstrap modal safely
-                const modalEl = document.getElementById("applyModal");
-                if (modalEl) {
-                    const modal = bootstrap.Modal.getInstance(modalEl) || new bootstrap.Modal(modalEl);
-                    modal.hide();
-                }
-            })
-            .catch(err => {
-                alert("Error submitting form, please try again.");
-                console.error(err);
-            });
-        }
-    });
+          // Hide the Bootstrap modal safely
+          const modalEl = document.getElementById("applyModal");
+          if (modalEl) {
+            const modal = bootstrap.Modal.getInstance(modalEl) || new bootstrap.Modal(modalEl);
+            modal.hide();
+          }
+        })
+        .catch(err => {
+          alert("Error submitting form, please try again.");
+          console.error(err);
+        });
+    }
+  });
 });
 
 
 // for searching icon
 // Open and close modal
 document.addEventListener("DOMContentLoaded", () => {
-    const searchIcon = document.querySelector('.fa-search');
-    const searchModal = document.getElementById('searchModal');
-    const closeSearch = document.querySelector('.close-search');
-    const searchInput = document.getElementById('searchInput');
-    const searchResults = document.getElementById('searchResults');
+  const searchIcon = document.querySelector('.fa-search');
+  const searchModal = document.getElementById('searchModal');
+  const closeSearch = document.querySelector('.close-search');
+  const searchInput = document.getElementById('searchInput');
+  const searchResults = document.getElementById('searchResults');
 
-    const pages = [
-        { name: "Home", url: "index.php" },
-        { name: "Careers", url: "career.php" },
-        { name: "Contact Us", url: "contact-us.php" },
-        { name: "About Us", url: "aboutus.php" },
-        { name: "UK", url: "uk.php" },
-        { name: "Our Team", url: "ourteam.php" },
-        { name: "Products - HMS", url: "hms.php" },
-        { name: "Products - SMS", url: "sms.php" },
-        { name: "Services - AI Development", url: "ai-dev.php" },
-        { name: "Services - Product Development", url: "productdev.php" },
-        { name: "Services - Mobile Applications Development", url: "mobiledev.php" },
-        { name: "Services - BlockChain Development", url: "blockchain.php" },
-        { name: "Blog", url: "blog.php" },
-        { name: "Portfolio", url: "portfolio.php" },
-        { name: "Services - Web Designing", url: "index.php#webdesign" }
-    ];
+  const pages = [
+    { name: "Home", url: "index.php" },
+    { name: "Careers", url: "career.php" },
+    { name: "Contact Us", url: "contact-us.php" },
+    
+    { name: "UK", url: "uk.php" },
 
-    // 🔹 Open search modal
-    searchIcon.addEventListener("click", e => {
-        e.preventDefault();
-        searchModal.style.display = "block";
-        searchInput.value = "";
-        searchResults.innerHTML = "";
-        searchInput.focus();
-    });
+    { name: "Services - AI Development", url: "ai-dev.php" },
+    { name: "Services - Product Development", url: "productdev.php" },
+    { name: "Services - Mobile Applications Development", url: "mobiledev.php" },
+    { name: "Services - BlockChain Development", url: "blockchain.php" },
+    { name: "Services - Ecommerse Development", url: "ecommersedev.php" },
+    { name: "Services - Reale State Development", url: "realestate.php" },
+    { name: "Services - Software Development", url: "softwaredev.php" },
+    { name: "Services - Graphic Designing", url: "graphic-designing.php" },
+    { name: "Services - Website Maintenance Designing", url: "website.php" },
+    { name: "Services - Web Designing", url: "web-designing.php" },
+    { name: "Services - Logo Designing", url: "logo-designing.php" },
+    { name: "Services - Search Engine Optimization", url: "seo.php" },
+    { name: "Services - Social Media Optimization", url: "smo.php" },
+    { name: "Services - Movie Promotion", url: "movie-promotion.php" },
+    { name: "Services - Product Bradning", url: "product-brading.php" },
+    { name: "Services - CMS Based Web Development", url: "cms-webdev.php" },
+    { name: "Services - Wordpress Development", url: "wordpressweb.php" },
+    { name: "Services - Joomla Web Development", url: "joomla-web.php" },
+    { name: "Services - Drupal Web Development", url: "drupal.php" },
 
-    // 🔹 Close modal (X, outside click, back navigation, ESC)
-    const closeModal = () => searchModal.style.display = "none";
-    closeSearch.addEventListener("click", closeModal);
-    window.addEventListener("click", e => e.target === searchModal && closeModal());
-    window.addEventListener("pageshow", closeModal);
-    document.addEventListener("keydown", e => e.key === "Escape" && closeModal());
+    { name: "Products - Hospital Management System", url: "hospital.mangement.php" },
+    { name: "Products - School Management System", url: "school.mangement.php" },
+    { name: "Products - Inventory Management System", url: "ims.php" },
+    { name: "Products - Online Examination Management System", url: "online-examination.php" },
+    { name: "Products - Appointment Management System", url: "appointment.php" },
+    { name: "Products - News Portal Management System", url: "newsportal.php" },
+    { name: "Products - Marriage Portal Management System", url: "marriageportal.php" },
 
-    // 🔹 Show results while typing
-    searchInput.addEventListener("input", () => {
-        const query = searchInput.value.toLowerCase();
-        searchResults.innerHTML = "";
-        pages.filter(p => p.name.toLowerCase().includes(query))
-             .forEach(p => {
-                 searchResults.innerHTML += `<li><a href="${p.url}" style="color:#fff;text-decoration:none;">${p.name}</a></li>`;
-             });
-    });
 
-    // 🔹 Enter key → go to first result
-    searchInput.addEventListener("keydown", e => {
-        if (e.key === "Enter") {
-            const first = pages.find(p => p.name.toLowerCase().includes(searchInput.value.toLowerCase()));
-            if (first) window.location.href = first.url;
-        }
-    });
+    { name: "About Us - About Vcreate Tech Global", url: "aboutus.php" },
+    { name: "About Us - Our Team", url: "ourteam.php" },
+    { name: "About Us - FAQ", url: "faq.php" },
+
+
+    { name: "Blog", url: "blog.php" },
+    { name: "Portfolio", url: "portfolio.php" },
+  ];
+
+  // 🔹 Open search modal
+  searchIcon.addEventListener("click", e => {
+    e.preventDefault();
+    searchModal.style.display = "block";
+    searchInput.value = "";
+    searchResults.innerHTML = "";
+    searchInput.focus();
+  });
+
+  // 🔹 Close modal (X, outside click, back navigation, ESC)
+  const closeModal = () => searchModal.style.display = "none";
+  closeSearch.addEventListener("click", closeModal);
+  window.addEventListener("click", e => e.target === searchModal && closeModal());
+  window.addEventListener("pageshow", closeModal);
+  document.addEventListener("keydown", e => e.key === "Escape" && closeModal());
+
+  // 🔹 Show results while typing
+  searchInput.addEventListener("input", () => {
+    const query = searchInput.value.toLowerCase();
+    searchResults.innerHTML = "";
+    pages.filter(p => p.name.toLowerCase().includes(query))
+      .forEach(p => {
+        searchResults.innerHTML += `<li><a href="${p.url}" style="color:#fff;text-decoration:none;">${p.name}</a></li>`;
+      });
+  });
+
+  // 🔹 Enter key → go to first result
+  searchInput.addEventListener("keydown", e => {
+    if (e.key === "Enter") {
+      const first = pages.find(p => p.name.toLowerCase().includes(searchInput.value.toLowerCase()));
+      if (first) window.location.href = first.url;
+    }
+  });
 });
 
 

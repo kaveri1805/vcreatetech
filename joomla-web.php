@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-left">
+                    <div class="contact-maintext text-white text-center text-lg-start">
                         <h1>Joomla <br> Web Development</h1>
                         <p>We deliver powerful Joomla websites <br> with advanced features and user-friendly designs.</p>
                     </div>

@@ -49,8 +49,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-center">
-                        <h1>SMO Services</h1>
+                    <div class="contact-maintext text-white text-center text-lg-start">
+                        <h1>Social Media Optimization</h1>
                         <p>We build your brand’s social presence with <br> engaging campaigns and content strategies.</p>
                     </div>
                 </div>

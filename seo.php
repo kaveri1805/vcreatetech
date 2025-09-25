@@ -49,8 +49,8 @@
        <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="contact-maintext text-white text-left">
-                    <h1>SEO Services</h1>
+                <div class="contact-maintext text-white text-center text-lg-start">
+                    <h1>Search Engine Optimization</h1>
                     <p>We boost your search engine rankings with <br> strategic optimizations and data-driven techniques.</p>
                 </div>
             </div>

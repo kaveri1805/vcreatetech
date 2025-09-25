@@ -523,7 +523,7 @@
 
 
     <!-- Our Services -->
-    <?php include("reusable/ourservices.php"); ?>
+    <!-- <?php include("reusable/ourservices.php"); ?> -->
 
 
 

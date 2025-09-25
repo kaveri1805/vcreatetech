@@ -63,7 +63,7 @@
             <div class="row">
                 <div class="col-md-6 mb-3">
                     <div class="uk-img rounded-4">
-                        <img src="images/country/uk1.jpeg" alt="UK">
+                        <img src="images/country/vcreatetch-uk1.jpeg" alt="UK">
                     </div>
                 </div>
                 <div class="col-md-6">

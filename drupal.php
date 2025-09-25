@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-center">
+                    <div class="contact-maintext text-white text-center drupal-text">
                         <h1>Drupal <br> Web Development</h1>
                         <p>We build enterprise-grade Drupal websites <br> that combine power, security, and flexibility.</p>
                     </div>

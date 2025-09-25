@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-left">
+                    <div class="contact-maintext text-white text-center text-lg-start">
                         <h1>Graphics Design</h1>
                         <p>We design creative visuals that <br> communicate your brand’s story effectively.</p>
                     </div>

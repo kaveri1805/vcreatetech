@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-left">
+                    <div class="contact-maintext text-white text-center text-lg-start">
                         <h1>Movie Promotion</h1>
                         <p>We design campaigns that create buzz <br> and anticipation for films and entertainment projects.</p>
                     </div>

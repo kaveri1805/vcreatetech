@@ -1655,20 +1655,20 @@ body {
   filter: brightness(100%);
   transform: scale(1.3);
 }
-/* .uk-bg {
-  background-image: url(../images/country/vcreatetech_uk.png);
+.india-bg {
+  background-image: url(../images/country/vcreatetch-indiabg.png);
   height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
 }
 @media (max-width: 768px) {
-  .uk-bg {
+  .india-bg {
     height: auto;
     min-height: 400px;
     background-size: cover;
     background-position: center;
   }
-} */
+}
 /* services */
 .card-service img {
   height: 70px;
@@ -1735,7 +1735,7 @@ body {
 }
 @media (max-width: 768px) {
   .career-bg {
-    background-image: url(../images/career/vcreatetech-mobile.png);
+    background-image: url(../images/career/vcreatetech-careermobile.png);
     height: auto;
     min-height: 400px;
     background-size: cover;
@@ -2340,7 +2340,7 @@ small {
 }
 
 .product-bg {
-  background-image: url(../images/development/vcreatetech-productbg.png);
+  background-image: url(../images/development/vcreatetech-productdevbg.png);
   height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2476,7 +2476,7 @@ small {
   }
 }
 .logo-bg {
-  background-image: url(../images/development/vcreatetech-logobg3.png);
+  background-image: url(../images/development/vcreatetech-logobg.png);
   height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2513,7 +2513,7 @@ small {
 }
 @media (max-width: 768px) {
   .smo-bg {
-    background-image: url(../images/development/vcreatetech-smomobile.png);
+    background-image: url(../images/development/vcreatetch-smomobile.png);
     height: auto;
     min-height: 400px;
     background-size: cover;
@@ -2528,7 +2528,7 @@ small {
 }
 @media (max-width: 768px) {
   .movie-bg {
-    background-image: url(../images/development/vcreatetech-moviemob.png);
+    background-image: url(../images/development/vcreatetech-moviemobile.png);
     height: auto;
     min-height: 400px;
     background-size: cover;
@@ -2551,14 +2551,14 @@ small {
   }
 }
 .cmsweb-bg {
-  background-image: url(../images/development/vcreatetech-cmsweb.png);
+  background-image: url(../images/development/vcreatetech-cmswebbg.png);
   height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
 }
 @media (max-width: 768px) {
   .cmsweb-bg {
-    background-image: url(../images/development/vcreatetech-cmswebmobile.png);
+    background-image: url(../images/development/vcreatetech-cmswebmobile1.png);
     height: auto;
     min-height: 400px;
     background-size: cover;
@@ -2580,13 +2580,15 @@ small {
   }
 }
 .joomla-bg {
-  background-image: url(../images/development/vcreatetech-joomlabg.png);
+  background-image: url(../images/development/vcreatetech-joomlabg1.png);
   height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
 }
 @media (max-width: 768px) {
   .joomla-bg {
+      background-image: url(../images/development/vcreatetech-joomlamobile.png);
+
     height: auto;
     min-height: 400px;
     background-size: cover;
@@ -2599,6 +2601,9 @@ small {
   background-repeat: no-repeat;
   background-size: contain;
 }
+.drupal-text{
+  margin-top: -50px;
+}
 @media (max-width: 768px) {
   .drupal-bg {
     background-image: url(../images/development/vcreatetech-drupalmobile4.png);
@@ -2606,6 +2611,9 @@ small {
     min-height: 400px;
     background-size: cover;
     background-position: center;
+  }
+  .drupal-text{
+    margin-top: 0px !important;
   }
 }
 /* products */

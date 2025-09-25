@@ -49,8 +49,11 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="contact-maintext text-white text-center">
-                        <h1>United Kingdom</h1>
-                        <p>Reach out to VCreate Tech Global Limited <br> UK for innovative tech solutions and expert support.</p>
+                        <h1>India</h1>
+                        <p>
+                            VCreate Technologies — Driving innovation from India, <br>
+                            delivering world-class digital solutions and cutting-edge technology expertise.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -60,23 +63,44 @@
     <!-- middle sections -->
     <section class="pt-5" style="background-color: #FFFFFF;">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-6 mb-3">
-                    <div class="uk-img rounded-4">
-                        <img src="images/country/uk1.jpeg" alt="UK">
+                    <div class="uk-img rounded-4 shadow-lg overflow-hidden">
+                        <img src="images/country/3.jpg" alt="India" class="img-fluid rounded-4">
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h1>VCreate Tech Global Limited — UK</h1>
-                    <p> Innovating with AI, Blockchain & Modern Code
-                        Vcreate Tech Global Limited is a UK-based technology leader delivering AI-powered automation, Blockchain platforms, and custom software solutions. Using advanced languages like Python, Rust, Solidity, and TypeScript, we build secure, scalable, and future-ready applications that drive digital transformation.From fintech to healthcare, retail to media, we empower UK businesses with smart contracts, intelligent tools, and next-gen digital solutions that accelerate growth and innovation.
+                    <h1 class="mb-3" style="color:#0D304D;">VCreate Technologies — India</h1>
+                    <p>
+                        Based in the heart of India’s tech ecosystem, <strong>VCreate Technologies</strong>
+                        is a hub of creativity, innovation, and digital excellence. We help startups, enterprises,
+                        and global brands harness the power of technology to scale faster and smarter.
                     </p>
+                    <p>
+                        Our Indian team specializes in <strong>AI, Blockchain, Web & App Development, Cloud Solutions,
+                            and Product Engineering</strong>, delivering secure, scalable, and user-friendly digital platforms.
+                        With expertise in modern frameworks and languages like Angular, React, Python, and Solidity,
+                        we build solutions that are <em>future-ready and business-focused</em>.
+                    </p>
+                    <p>
+                        From <strong>fintech to e-commerce, healthcare to education</strong>, we bring ideas to life with
+                        innovative strategies, powerful code, and exceptional design — making technology work for people
+                        and businesses alike.
+                    </p>
+                    <!-- <h5 class="mt-4" style="color:#0D304D;">✨ Why VCreate in India?</h5>
+                    <ul class="list-unstyled mt-2">
+                        <li>✅ Strong presence in India’s IT hub</li>
+                        <li>✅ Full-stack product development expertise</li>
+                        <li>✅ Affordable, scalable, and reliable solutions</li>
+                        <li>✅ Dedicated support with global quality standards</li>
+                    </ul> -->
                 </div>
             </div>
         </div>
     </section>
 
-  <!-- Our Services -->
+
+    <!-- Our Services -->
     <?php include("reusable/ourservices.php"); ?>
 
 
@@ -178,28 +202,40 @@
     <script src="js/combine.js"></script>
 
 
-<script>
-  $(document).ready(function(){
-    $(".owl-carousel").owlCarousel({
-      loop: true,              // infinite loop
-      margin: 30,              // space between items
-      items: 5,                // show 5 images at a time
-      slideBy: 1,              // slide 1 image per move
-      autoplay: true,
-      autoplayTimeout: 3000,   // pause 1s between slides
-      smartSpeed: 1000,        // smooth 1s slide
-      autoplayHoverPause: false,
-      responsive: {
-        0: { items: 2, slideBy: 1 },
-        576: { items: 3, slideBy: 1 },
-        768: { items: 4, slideBy: 1 },
-        1200: { items: 5, slideBy: 1 }
-      },
-      nav: false,
-      dots: false
-    });
-  });
-</script>
+    <script>
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel({
+                loop: true, // infinite loop
+                margin: 30, // space between items
+                items: 5, // show 5 images at a time
+                slideBy: 1, // slide 1 image per move
+                autoplay: true,
+                autoplayTimeout: 3000, // pause 1s between slides
+                smartSpeed: 1000, // smooth 1s slide
+                autoplayHoverPause: false,
+                responsive: {
+                    0: {
+                        items: 2,
+                        slideBy: 1
+                    },
+                    576: {
+                        items: 3,
+                        slideBy: 1
+                    },
+                    768: {
+                        items: 4,
+                        slideBy: 1
+                    },
+                    1200: {
+                        items: 5,
+                        slideBy: 1
+                    }
+                },
+                nav: false,
+                dots: false
+            });
+        });
+    </script>
 
 
 </body>
