@@ -1656,13 +1656,41 @@ body {
   transform: scale(1.3);
 }
 .india-bg {
-  background-image: url(../images/country/vcreatetch-indiabg.png);
+  background-image: url(../images/country/india3.png);
   height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
 }
 @media (max-width: 768px) {
   .india-bg {
+    height: auto;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.uae-bg {
+  background-image: url(../images/country/vcreatetech-uaebg.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (max-width: 768px) {
+  .uae-bg {
+    height: auto;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.usa-bg {
+  background-image: url(../images/country/vcreatetech-usabg.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (max-width: 768px) {
+  .usa-bg {
     height: auto;
     min-height: 400px;
     background-size: cover;
@@ -1961,6 +1989,34 @@ span {
   }
 }
 
+.circle-img {
+      width: 100%;
+      max-width: 450px;
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+    .circle-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .section-content {
+      padding: 2rem;
+    }
+    .btn-custom {
+      background-color: #2f4c6e;
+      color: #fff;
+      border-radius: 30px;
+      padding: 8px 20px;
+    }
+    .btn-custom:hover {
+      background-color: #1f354e;
+      color: #fff;
+    }
+
+
 .getvct {
   background: #ffd6da;
   padding: 40px 30px;
@@ -2248,6 +2304,9 @@ small {
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
 }
+.expert-top img{
+  height: 150px;
+}
 
 .expert-card:hover {
   transform: translateY(-8px);
@@ -2506,7 +2565,7 @@ small {
   }
 }
 .smo-bg {
-  background-image: url(../images/development/vcreatetech-smobg.png);
+  background-image: url(../images/development/vcreatetch-smobg.png);
   height: 600px;
   background-repeat: no-repeat;
   background-size: contain;

@@ -260,7 +260,7 @@
                                 Vcreate Tech Global LLC: UAE
                             </h2>
                             <p> VCreate Tech Global LLC in the UAE drives innovation with AI, Blockchain, and modern programming languages like Python, Rust, Solidity, and TypeScript. The company builds smart automation, decentralized apps, and secure platforms for finance, media, logistics, and government sectors. VCreate enhances efficiency and transparency, empowering businesses to lead in the UAE’s AI and Web3 future. </p>
-                            <a href="#" class="btn btn-outline-dark px-4 rounded-2 text-white" style="background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);">
+                            <a href="uae.php" class="btn btn-outline-dark px-4 rounded-2 text-white" style="background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);">
                                 Read More →
                             </a>
                         </div>
@@ -292,7 +292,7 @@
                             <p>
                                 VCreate Tech Global Ltd delivers advanced AI, Blockchain, and modern programming solutions designed to accelerate digital transformation and foster innovation across a wide range of industries in the USA. By leveraging cutting-edge technologies, the company helps businesses improve efficiency, security, and scalability, empowering them to stay competitive in today’s fast-evolving digital landscape.
                             </p>
-                            <a href="#" class="btn btn-outline-dark px-4 rounded-2 text-white" style="background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);">
+                            <a href="usa.php" class="btn btn-outline-dark px-4 rounded-2 text-white" style="background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);">
                                 Read More →
                             </a>
                         </div>

@@ -44,15 +44,15 @@
 
 
     <!-- background img section -->
-    <section class="india-bg">
+    <section class="usa-bg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-center">
-                        <h1>India</h1>
+                    <div class="contact-maintext text-white text-center ">
+                        <h1>United States of America</h1>
                         <p>
-                            VCreate Technologies — Driving innovation from India, <br>
-                            delivering world-class digital solutions and cutting-edge technology expertise.
+                            VCreate Tech Global Ltd Delivering world-class innovation, <br>
+                            AI-driven solutions, and enterprise-grade technology across the USA.
                         </p>
                     </div>
                 </div>
@@ -66,34 +66,27 @@
             <div class="row align-items-center">
                 <div class="col-md-6 mb-3">
                     <div class="uk-img rounded-4 shadow-lg overflow-hidden">
-                        <img src="images/country/vcreatetech-india1.jpg" alt="India" class="img-fluid rounded-4">
+                        <img src="images/country/vcreatetech-usa1.jpeg" alt="USA" class="img-fluid rounded-4">
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h1 class="mb-3" style="color:#0D304D;">VCreate Technologies — India</h1>
+                    <h1 class="mb-3" style="color:#0D304D;">VCreate Tech Global Ltd — USA</h1>
                     <p>
-                        Based in the heart of India’s tech ecosystem, <strong>VCreate Technologies</strong>
-                        is a hub of creativity, innovation, and digital excellence. We help startups, enterprises,
-                        and global brands harness the power of technology to scale faster and smarter.
+                        <strong>VCreate Tech Global Ltd</strong> in the USA is committed to empowering businesses
+                        with <strong>AI, Blockchain, Cloud, and full-stack software solutions</strong> that drive
+                        innovation and digital excellence. From Silicon Valley startups to Fortune 500 enterprises,
+                        we design technology that scales with ambition.
                     </p>
                     <p>
-                        Our Indian team specializes in <strong>AI, Blockchain, Web & App Development, Cloud Solutions,
-                            and Product Engineering</strong>, delivering secure, scalable, and user-friendly digital platforms.
-                        With expertise in modern frameworks and languages like Angular, React, Python, and Solidity,
-                        we build solutions that are <em>future-ready and business-focused</em>.
+                        Our expertise covers <em>AI-powered automation, blockchain ecosystems, secure fintech platforms,
+                            enterprise web & mobile apps, and next-gen cloud systems</em>. With mastery in Python, Rust, Solidity,
+                        TypeScript, Angular, and React, our team delivers solutions that are both powerful and future-ready.
                     </p>
                     <p>
-                        From <strong>fintech to e-commerce, healthcare to education</strong>, we bring ideas to life with
-                        innovative strategies, powerful code, and exceptional design — making technology work for people
-                        and businesses alike.
+                        By blending <strong>global delivery expertise with the USA’s dynamic tech landscape</strong>,
+                        we help companies innovate faster, enhance user experiences, and transform bold ideas into
+                        sustainable digital success.
                     </p>
-                    <!-- <h5 class="mt-4" style="color:#0D304D;">✨ Why VCreate in India?</h5>
-                    <ul class="list-unstyled mt-2">
-                        <li>✅ Strong presence in India’s IT hub</li>
-                        <li>✅ Full-stack product development expertise</li>
-                        <li>✅ Affordable, scalable, and reliable solutions</li>
-                        <li>✅ Dedicated support with global quality standards</li>
-                    </ul> -->
                 </div>
             </div>
         </div>

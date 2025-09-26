@@ -44,15 +44,15 @@
 
 
     <!-- background img section -->
-    <section class="india-bg">
+    <section class="uae-bg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="contact-maintext text-white text-center">
-                        <h1>India</h1>
+                        <h1>United Arab Emirates</h1>
                         <p>
-                            VCreate Technologies — Driving innovation from India, <br>
-                            delivering world-class digital solutions and cutting-edge technology expertise.
+                            VCreate Tech Global LLC  Empowering the UAE with <br>
+                            next-gen digital transformation, innovation, and future-ready solutions.
                         </p>
                     </div>
                 </div>
@@ -66,34 +66,28 @@
             <div class="row align-items-center">
                 <div class="col-md-6 mb-3">
                     <div class="uk-img rounded-4 shadow-lg overflow-hidden">
-                        <img src="images/country/vcreatetech-india1.jpg" alt="India" class="img-fluid rounded-4">
+                        <img src="images/country/vcreatetech-dubai.jpg" alt="UAE" class="img-fluid rounded-4">
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h1 class="mb-3" style="color:#0D304D;">VCreate Technologies — India</h1>
+                    <h1 class="mb-3" style="color:#0D304D;">VCreate Tech Global LLC — UAE</h1>
                     <p>
-                        Based in the heart of India’s tech ecosystem, <strong>VCreate Technologies</strong>
-                        is a hub of creativity, innovation, and digital excellence. We help startups, enterprises,
-                        and global brands harness the power of technology to scale faster and smarter.
+                        In the heart of the Middle East, <strong>VCreate Tech Global LLC</strong> stands as a
+                        trusted technology partner for enterprises and startups across the UAE.
+                        We deliver <strong>AI-driven solutions, Blockchain platforms, Cloud applications,
+                            and full-scale software development</strong> to accelerate digital growth.
                     </p>
                     <p>
-                        Our Indian team specializes in <strong>AI, Blockchain, Web & App Development, Cloud Solutions,
-                            and Product Engineering</strong>, delivering secure, scalable, and user-friendly digital platforms.
-                        With expertise in modern frameworks and languages like Angular, React, Python, and Solidity,
-                        we build solutions that are <em>future-ready and business-focused</em>.
+                        Our UAE operations are focused on building <em>secure, scalable, and innovative platforms</em>
+                        that empower businesses in <strong>finance, real estate, retail, healthcare, and government sectors</strong>.
+                        With deep expertise in Python, Solidity, TypeScript, and advanced frameworks,
+                        we ensure every solution is designed for impact and long-term success.
                     </p>
                     <p>
-                        From <strong>fintech to e-commerce, healthcare to education</strong>, we bring ideas to life with
-                        innovative strategies, powerful code, and exceptional design — making technology work for people
-                        and businesses alike.
+                        Combining global experience with local market insights,
+                        <strong>VCreate UAE</strong> bridges technology and business excellence —
+                        helping organizations embrace transformation and stay ahead in a competitive digital world.
                     </p>
-                    <!-- <h5 class="mt-4" style="color:#0D304D;">✨ Why VCreate in India?</h5>
-                    <ul class="list-unstyled mt-2">
-                        <li>✅ Strong presence in India’s IT hub</li>
-                        <li>✅ Full-stack product development expertise</li>
-                        <li>✅ Affordable, scalable, and reliable solutions</li>
-                        <li>✅ Dedicated support with global quality standards</li>
-                    </ul> -->
                 </div>
             </div>
         </div>

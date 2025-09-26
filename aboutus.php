@@ -85,6 +85,68 @@
         </div>
     </section>
 
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <h1 class="mb-3 text-center" style="color:#0D304D;">Our Company Journy</h1>
+                <!-- Left Circle Image -->
+                <div class="col-md-6 text-center">
+                    <div class="circle-img">
+                        <img src="images/ourteam/vct1.png" alt="Journey">
+                    </div>
+                </div>
+                <!-- Right Content -->
+                <div class="col-md-6 section-content text-md-start text-center">
+                    <h5 class="fw-bold">About Our Company</h5>
+                    <p>
+                        Every great journey begins with a single step — and ours started in <strong>2012</strong> with a
+                        vision to transform ideas into impactful realities. From those humble beginnings, we have grown
+                        into a trusted and dynamic organization that continues to redefine standards of excellence.
+                    </p>
+                    <p>
+                        For the past <strong>14 years</strong>, we have been building not just a company, but a legacy
+                        of innovation, dedication, and trust. Our journey is a story of passion meeting purpose — where
+                        creativity blends with commitment to deliver meaningful solutions for our clients and partners
+                        across the globe.
+                    </p>
+                    <p>
+                        Through challenges and triumphs, we have embraced change, adapted with agility, and achieved
+                        milestones that speak louder than words. Yet, what truly defines us is not just the years we have
+                        completed, but the values we uphold — <em>integrity, innovation, and impact.</em>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Second Row -->
+            <div class="row align-items-center flex-md-row flex-column-reverse">
+                <!-- Left Content -->
+                <div class="col-md-6 section-content text-md-start text-center">
+                    <h2 class="fw-bold">It’s time for a new journey</h2>
+                    <p>
+                        Standing tall after completing an inspiring <strong>14-year journey</strong>, we are ready to
+                        step into the future with greater ambition and renewed vision. The next chapter is not just
+                        about growth, but about creating meaningful impact, embracing innovation, and unlocking new
+                        opportunities across every horizon.
+                    </p>
+                    <p>
+                        Together, we look forward to building dreams, strengthening relationships, and shaping a future
+                        where possibilities are endless. The journey from <strong>2012</strong> to today was just the
+                        beginning — the best is yet to come.
+                    </p>
+                    <a href="contact-us.php" class="btn text-white px-4 rounded-2" style="background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);">
+                        Contact Us
+                    </a>
+                </div>
+                <!-- Right Circle Image -->
+                <div class="col-md-6 text-center">
+                    <div class="circle-img">
+                        <img src="images/ourteam/cor1.jpg" alt="New Journey">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Our missions -->
     <section class="py-5" style="background-color: #FFFFFF;">
         <div class="container">
@@ -165,7 +227,7 @@
 
     <!-- Testimonial -->
 
-    <section class="py-5 testi-bg" >
+    <section class="py-5 testi-bg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-7">
@@ -200,7 +262,7 @@
                             <small>Project Manager</small>
                         </div>
 
-                         <!-- Testimonial 3 -->
+                        <!-- Testimonial 3 -->
                         <div class="item d-flex justify-content-center flex-column align-items-center text-center">
                             <div class="client1 mb-3">
                                 <img src="images/aboutus/vcreatetech-client3.png" class="rounded-circle mb-3" alt="Client">

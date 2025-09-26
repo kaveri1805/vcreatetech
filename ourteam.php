@@ -209,7 +209,7 @@
                         </div>
                         <div class="col-lg-6 mb-3 col-md-6 col-md-12 position-relative">
                             <div class="expert-card expert-top">
-                                <img src="images/ourteam/monica1.png" alt="">
+                                <img src="images/ourteam/img1.png" alt="">
                                 <div class="mt-3">
                                     <h4 class="mb-1 team-name">Monica Padghan</h4>
                                     <p class="team-role mb-3">Human Resources, Head</p>
