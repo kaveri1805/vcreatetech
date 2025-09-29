@@ -36,7 +36,7 @@
                         <li class="social-linkedin"><a href="https://www.linkedin.com/in/vcreate-tech-global?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-linkedin"></i></a></li>
                         <li class="social-facebook"><a href="https://www.facebook.com/VcreateTechnologies"><i class="fa fa-facebook"></i></a></li>
                         <li class="social-twitter"><a href="https://twitter.com/vcreatetech"><i class="fa fa-twitter"></i></a></li>
-                        <li class="social-gplus"><a href="https://plus.google.com/u/0/101485129306412370629/posts"><i class="fa fa-google-plus"></i></a></li>
+                        <!-- <li class="social-gplus"><a href="https://plus.google.com/u/0/101485129306412370629/posts"><i class="fa fa-google-plus"></i></a></li> -->
                         <li class="social-instagram"><a href="https://www.instagram.com/vcreatetech?igsh=a3k2Ymp1bDVkaTJq"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                 </div>
@@ -268,6 +268,8 @@
 
                 </ul>
             </li>
+
+            <li><a href="index.php">Vcreate Group</a></li>
 
             <li><a href="portfolio.php">PORTFOLIO</a></li>
             <li><a href="blog.php">BLOG</a></li>

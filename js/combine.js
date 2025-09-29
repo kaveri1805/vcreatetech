@@ -540,8 +540,8 @@ document.addEventListener("DOMContentLoaded", () => {
     { name: "Services - Joomla Web Development", url: "joomla-web.php" },
     { name: "Services - Drupal Web Development", url: "drupal.php" },
 
-    { name: "Products - Hospital Management System", url: "hospital.mangement.php" },
-    { name: "Products - School Management System", url: "school.mangement.php" },
+    { name: "Products - Hospital Management System", url: "hospital-mangement.php" },
+    { name: "Products - School Management System", url: "school-mangement.php" },
     { name: "Products - Inventory Management System", url: "ims.php" },
     { name: "Products - Online Examination Management System", url: "online-examination.php" },
     { name: "Products - Appointment Management System", url: "appointment.php" },

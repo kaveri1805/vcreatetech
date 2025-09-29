@@ -55,7 +55,7 @@
                                      <ul class="list-unstyled text-white">
                                          <li><a class="text-white text-decoration-none" href="index.php">Home</a></li>
                                          <li><a class="text-white text-decoration-none" href="aboutus.php">About Us</a></li>
-                                         <li><a class="text-white text-decoration-none" href="index.php">Blog</a></li>
+                                         <li><a class="text-white text-decoration-none" href="blog.php">Blog</a></li>
                                          <li><a class="text-white text-decoration-none" href="ourteam.php">Team</a></li>
                                          <li><a class="text-white text-decoration-none" href="contact-us.php">Contact Us</a></li>
                                      </ul>

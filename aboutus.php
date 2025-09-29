@@ -88,11 +88,11 @@
     <section class="py-5 bg-white">
         <div class="container">
             <div class="row align-items-center mb-5">
-                <h1 class="mb-3 text-center" style="color:#0D304D;">Our Company Journy</h1>
+                <h1 class="mb-3 text-center" style="color:#0D304D;">Our Company Journey</h1>
                 <!-- Left Circle Image -->
                 <div class="col-md-6 text-center">
                     <div class="circle-img">
-                        <img src="images/ourteam/vct1.png" alt="Journey">
+                        <img src="images/aboutus/vcreatetech-logo.png" alt="Journey">
                     </div>
                 </div>
                 <!-- Right Content -->
@@ -140,7 +140,7 @@
                 <!-- Right Circle Image -->
                 <div class="col-md-6 text-center">
                     <div class="circle-img">
-                        <img src="images/ourteam/cor1.jpg" alt="New Journey">
+                        <img src="images/aboutus/vcreatetech-label.png" alt="New Journey">
                     </div>
                 </div>
             </div>
@@ -237,7 +237,7 @@
                         <!-- Testimonial 1 -->
                         <div class="item d-flex justify-content-center flex-column align-items-center text-center">
                             <div class="client1 mb-3">
-                                <img src="images/aboutus/vcreatetech-client2.1.png" class="rounded-circle mb-3 img-fluid w-0" alt="Client">
+                                <img src="images/aboutus/vcreatetech-client2.png" class="rounded-circle mb-3 img-fluid w-0" alt="Client">
                             </div>
                             <h5>Excellent Service!</h5>
                             <p class="px-3 px-md-5 mt-4 mb-4 fs-5">

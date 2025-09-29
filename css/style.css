@@ -215,8 +215,7 @@ body {
 /* Change background and text when submenu is open */
 .dropdown-submenu.open > .submenu-toggle {
   color: #fff !important;
-  background: linear-gradient(90deg, #007bff, #00bfff) !important;
-}
+background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);}
 
 /* Also apply hover effect */
 .dropdown-submenu > .submenu-toggle:hover .custom-arrow-right {
@@ -252,12 +251,12 @@ body {
 .custom-submenu .dropdown-item.active,
 .custom-submenu .dropdown-item:active {
   color: #ffffff !important;
-  background: linear-gradient(90deg, #007bff, #00bfff) !important;
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
 }
 
 .dropdown-submenu .submenu-toggle:hover {
   color: #ffffff !important;
-  background: linear-gradient(90deg, #007bff, #00bfff) !important;
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
 }
 .custom-arrow-right:active {
   color: #ffffff !important;
@@ -1990,32 +1989,31 @@ span {
 }
 
 .circle-img {
-      width: 100%;
-      max-width: 450px;
-      aspect-ratio: 1/1;
-      border-radius: 50%;
-      overflow: hidden;
-      margin: 0 auto;
-    }
-    .circle-img img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    .section-content {
-      padding: 2rem;
-    }
-    .btn-custom {
-      background-color: #2f4c6e;
-      color: #fff;
-      border-radius: 30px;
-      padding: 8px 20px;
-    }
-    .btn-custom:hover {
-      background-color: #1f354e;
-      color: #fff;
-    }
-
+  width: 100%;
+  max-width: 450px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.circle-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section-content {
+  padding: 2rem;
+}
+.btn-custom {
+  background-color: #2f4c6e;
+  color: #fff;
+  border-radius: 30px;
+  padding: 8px 20px;
+}
+.btn-custom:hover {
+  background-color: #1f354e;
+  color: #fff;
+}
 
 .getvct {
   background: #ffd6da;
@@ -2287,8 +2285,6 @@ small {
   letter-spacing: 1px;
 } */
 
-
-
 .linkdin-icon {
   background-color: #0a0837;
   color: #ffffff;
@@ -2304,7 +2300,7 @@ small {
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
 }
-.expert-top img{
+.expert-top img {
   height: 150px;
 }
 
@@ -2646,7 +2642,7 @@ small {
 }
 @media (max-width: 768px) {
   .joomla-bg {
-      background-image: url(../images/development/vcreatetech-joomlamobile.png);
+    background-image: url(../images/development/vcreatetech-joomlamobile.png);
 
     height: auto;
     min-height: 400px;
@@ -2660,7 +2656,7 @@ small {
   background-repeat: no-repeat;
   background-size: contain;
 }
-.drupal-text{
+.drupal-text {
   margin-top: -50px;
 }
 @media (max-width: 768px) {
@@ -2671,7 +2667,7 @@ small {
     background-size: cover;
     background-position: center;
   }
-  .drupal-text{
+  .drupal-text {
     margin-top: 0px !important;
   }
 }
@@ -2862,8 +2858,10 @@ small {
 }
 .portfolio-overlay {
   position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background: linear-gradient(to top, #0a0837 0%, rgba(170, 135, 44, 0) 100%);
   display: flex;
   flex-direction: column;
@@ -2922,4 +2920,56 @@ small {
     background-size: cover;
     background-position: center;
   }
+}
+
+/* Vcreate Group */
+
+.vcreate-bg {
+  background-image: url(../images/vcreategroup/img1.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (max-width: 768px) {
+  .vcreate-bg {
+    /* background-image: url(../images/vcreatetech-faqmobile.png); */
+    height: auto;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.tree-map {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tree-node {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  background-color: #f8f9fa;
+  text-align: center;
+  min-width: 200px;
+}
+
+.tree-node.parent {
+  background-color: #0d304d;
+  color: white;
+}
+
+.tree-children {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.tree-node.child {
+  background-color: #1e4a7f;
+  color: white;
+  margin: 10px;
 }
