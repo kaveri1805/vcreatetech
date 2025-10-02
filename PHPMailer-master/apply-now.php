@@ -23,13 +23,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'kaverikamble1805@gmail.com'; // still using same SMTP account
-        $mail->Password   = 'yrvv oluq ypny zxlp';  // Gmail App Password
+        $mail->Username   = 'kaveri@vcreatetech.com'; // still using same SMTP account
+        $mail->Password   = 'xjfl xsqx vawx gnsc';  // Gmail App Password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
         $mail->setFrom($email);
-        $mail->addAddress('kaverikamble1805@gmail.com', 'Vcreate Tech'); // Job Applications go here
+        $mail->addAddress('kaveri@vcreatetech.com', 'Vcreate Tech'); // Job Applications go here
         $mail->addReplyTo($email);
 
         $mail->isHTML(true);

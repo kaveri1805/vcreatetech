@@ -1,5 +1,9 @@
  <section id="raindrops" class="raindrops" style="height: 50px;"></section>
 
+
+
+
+
  <!-- Footer Section -->
  <section id="section7">
      <footer class="footer footer-bg">
@@ -94,11 +98,11 @@
                      <div class="col-md-12">
                          <div class="social-links-icon">
                              <ul class="list-unstyled d-flex justify-content-center">
-                                 <li class="mx-2"><a href=""><img src="images/footer-icons/vcreatetech_whatsapp.png" alt=""></a></li>
-                                 <li class="mx-2"><a href=""><img src="images/footer-icons/vcreatetech_instagram.png" alt=""></a></li>
+                                 <li class="mx-2"><a href="https://www.linkedin.com/in/vcreate-tech-global?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="images/footer-icons/vcreatetech_linkedin.png" alt=""></a></li>
                                  <li class="mx-2"><a href="https://www.facebook.com/VcreateTechnologies"><img src="images/footer-icons/vcreatetech_facebook.png" alt=""></a></li>
                                  <li class="mx-2"><a href="https://twitter.com/vcreatetech"><img src="images/footer-icons/vcreatetech_twitter.png" alt=""></a></li>
-                                 <li class="mx-2"><a href="#"><img src="images/footer-icons/vcreatetech_linkedin.png" alt=""></a></li>
+                                 <li class="mx-2"><a href=""><img src="images/footer-icons/vcreatetech_whatsapp.png" alt=""></a></li>
+                                 <li class="mx-2"><a href="https://www.instagram.com/vcreatetech?igsh=a3k2Ymp1bDVkaTJq"><img src="images/footer-icons/vcreatetech_instagram.png" alt=""></a></li>
                              </ul>
                          </div>
                      </div>
@@ -119,3 +123,8 @@
          </div>
      </footer>
  </section>
+
+
+
+
+

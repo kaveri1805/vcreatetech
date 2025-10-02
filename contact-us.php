@@ -3,13 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="Vcreate Technoloy" />
-    <meta name="description"
-        content="Website Development Company in London, Website Development Company in Dubai, Website Development Company in Mumbai, Website Development Company in Pune, Website Development Company in Nagpur," />
-    <meta name="author" content="Webopick.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Vcreate Technologies</title>
+    <title>Vcreate Tech Global / Vcreate Technologies</title>
 
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -21,8 +16,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-
-
+    <script src="js/meta.js" defer></script>
 
     <!-- owl caroual -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -30,6 +24,7 @@
 
     <!-- Font icon -->
     <link rel="shortcut icon" href="images/favicon.ico">
+
 </head>
 
 <body>
@@ -132,10 +127,10 @@
                                 width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             <div class="map-bottom-strip">
                                 <h2 id="mapTitle">Vcreate Tech Global LLC</h2>
-                                <h6 id="mapCountry">United Arab Emirates</h6>
+                                <h6 id="mapCountry" class="text-white">United Arab Emirates</h6>
                                 <p id="mapAddress">Tower,Iris Bay-145 Business Bay,Duabi(UAE)</p>
                                 <a href="tel:+447833981369" class="text-decoration-none text-white" style="font-size: 20px;">
-                                    <span id="mapPhone">+(971) 507502369</span>
+                                    <span id="mapPhone" class="text-white">+(971) 507502369</span>
                                 </a>
                             </div>
                         </div>
@@ -208,6 +203,42 @@
                                 </div>
                                 <div class="card-dubai-footer d-flex justify-content-between pt-4 align-items-center">
                                     <h5 type="button">UK</h5>
+                                    <div class="d-flex">
+                                        <img src="images/contactus/arrows.png" alt="" height="22px">
+                                        <strong>view large map</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- USA -->
+                         <div class="col-12 col-sm-6 col-lg-6 mb-4">
+                            <div class="card-dubai location-card"
+                                data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93440.55634492067!2d-85.74265049482678!3d42.9568380379126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88185460bb502815%3A0xa593aacb1bd3a8d0!2sGrand%20Rapids%2C%20MI%2C%20USA!5e0!3m2!1sen!2sin!4v1759377325953!5m2!1sen!2sin"
+                                data-title="Vcreate Tech Global Ltd"
+                                data-country="United States of America"
+                                data-address="Michigan"
+                                data-phone="+1 (616)780-6212">
+                                <div class="dubai-header d-flex justify-content-between align-items-center pt-4">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fa-solid fa-location-dot" style="color: #1C5593;"></i>
+                                        <p class="m-0">Grand Rapids</p>
+                                    </div>
+                                    <img src="images/contactus/direction.png" alt="">
+                                </div>
+                                <div class="card-dubai-body pt-2">
+                                    <p class="m-0">
+                                       Michigan Grand Rapids City - USA
+                                    </p>
+                                    <div class="review-row pt-2">
+                                        <strong>4.5</strong>
+                                        <img src="images/contactus/stars.png" alt="" height="15px">
+                                        <strong style="color:#0070BF">97 reviews</strong>
+                                    </div>
+                                </div>
+                                <div class="card-dubai-footer d-flex justify-content-between pt-4 align-items-center">
+                                    <h5 type="button">USA</h5>
                                     <div class="d-flex">
                                         <img src="images/contactus/arrows.png" alt="" height="22px">
                                         <strong>view large map</strong>

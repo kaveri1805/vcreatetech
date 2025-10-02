@@ -3,13 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="Vcreate Technoloy" />
-    <meta name="description"
-        content="Website Development Company in London, Website Development Company in Dubai, Website Development Company in Mumbai, Website Development Company in Pune, Website Development Company in Nagpur," />
-    <meta name="author" content="Webopick.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Vcreate Technologies</title>
+    <title>Vcreate Tech Global / Vcreate Technologies</title>
 
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -21,6 +16,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+    <script src="js/meta.js" defer></script>
 
     <!-- owl caroual -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -49,7 +45,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-center text-lg-start">
+                    <div class="contact-maintext text-white  text-center text-lg-start text-sm-start">
                         <h1>Web Design</h1>
                         <p>We create visually stunning websites that <br> engage users and reflect your brand identity.</p>
                     </div>
@@ -64,7 +60,7 @@
                 <h2 class="mb-3" style="color:#0D304D;">Creative web designs by <br> Vcreate Tech Global for engaging experiences, <br> user-friendly interfaces, and impactful branding.</h2>
                 <p class="mb-5">At Vcreate Tech Global, we craft custom web designs that not only look beautiful but also deliver seamless navigation and functionality. Our designs are tailored to meet your business goals and provide an exceptional experience across all devices.</p>
             </div>
-            <div class="row pt-5">
+            <div class="row pt-5 align-items-sm-center">
                 <div class="col-md-6 mb-3">
                     <div class="uk-img rounded-4">
                         <img src="images/development/vcreatetech-web1.png" alt="Web Design">

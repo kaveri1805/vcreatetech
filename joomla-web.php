@@ -3,13 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="Vcreate Technoloy" />
-    <meta name="description"
-        content="Website Development Company in London, Website Development Company in Dubai, Website Development Company in Mumbai, Website Development Company in Pune, Website Development Company in Nagpur," />
-    <meta name="author" content="Webopick.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Vcreate Technologies</title>
+    <title>Vcreate Tech Global / Vcreate Technologies</title>
 
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -21,6 +16,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+    <script src="js/meta.js" defer></script>
 
     <!-- owl caroual -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -49,7 +45,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-maintext text-white text-center text-lg-start">
+                    <div class="contact-maintext text-white  text-center text-lg-start text-sm-start">
                         <h1>Joomla <br> Web Development</h1>
                         <p>We deliver powerful Joomla websites <br> with advanced features and user-friendly designs.</p>
                     </div>
@@ -64,7 +60,7 @@
                 <h2 class="mb-3" style="color:#0D304D;">Expert Joomla development by <br> Vcreate Tech Global for robust portals, <br> online communities, and enterprise solutions.</h2>
                 <p class="mb-5">Our Joomla development services cater to businesses looking for scalable and secure web solutions. We provide feature-rich platforms that offer flexibility and customization, helping you build websites that meet specific needs such as membership portals, online stores, or community platforms. With Joomla’s extensibility and our development expertise, we create solutions that grow with your business.</p>
             </div>
-            <div class="row pt-5">
+            <div class="row pt-5 align-items-sm-center">
                 <div class="col-md-6 mb-3">
                     <div class="uk-img rounded-4">
                         <img src="images/development/vcreatetech-joomla1.png" alt="Joomla Development">

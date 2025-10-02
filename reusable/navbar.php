@@ -49,7 +49,7 @@
 <!-- Navbar -->
 
 <div class="header">
-    <nav class="mega-menu navbar navbar-expand-lg pt-4">
+    <nav class="mega-menu navbar navbar-expand-lg pt-4 custom-navbar">
         <div class="container">
             <a class="navbar-brand menu-logo" href="index.php">
                 <img src="images/white1.png" alt="logo">
@@ -143,20 +143,25 @@
                                     Development <i class="fa fa-chevron-right custom-arrow-right float-end"></i>
                                 </a>
                                 <ul class="dropdown-menu custom-submenu">
-                                    <li><a class="dropdown-item" href="ai-dev.php">AI Development </a>
+                                    <li><a class="dropdown-item" href="softwaredev.php">Software Development</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="productdev.php">Product Development </a>
+                                    <li><a class="dropdown-item" href="ai-dev.php">AI Solutions </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="blockchain.php">BlockChain Technology</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="index.php">IOT Development</a>
                                     </li>
                                     <li><a class="dropdown-item" href="mobiledev.php">Mobile Applications Development </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="index.php">IT Solutions </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="productdev.php">Product Development </a>
                                     </li>
                                     <li><a class="dropdown-item" href="ecommersedev.php">Ecommerce Development </a>
                                     </li>
                                     <li><a class="dropdown-item" href="realestate.php">Real Estate Development</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="softwaredev.php">Software Development</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="blockchain.php">BlockChain Development</a>
-                                    </li>
+
                                 </ul>
                             </li>
                             <!-- Designing -->
@@ -165,9 +170,16 @@
                                     Designing <i class="fa fa-chevron-right custom-arrow-right float-end"></i>
                                 </a>
                                 <ul class="dropdown-menu custom-submenu">
-                                    <li><a class="dropdown-item" href="web-designing.php">Web Designing </a></li>
+                                    <li><a class="dropdown-item" href="web-designing.php">UI/UX Designing </a></li>
+                                    <li><a class="dropdown-item" href="index.php">Wire framing & Prototyping </a></li>
+                                    <li><a class="dropdown-item" href="index.php">User Journey Mapping </a></li>
+                                    <li><a class="dropdown-item" href="index.php">Interaction Design </a></li>
+                                    <li><a class="dropdown-item" href="index.php">Web and Mobile App </a></li>
+                                    <li><a class="dropdown-item" href="index.php">Motion and Animation </a></li>
+                                    <li><a class="dropdown-item" href="index.php">Products </a></li>
+                                    <li><a class="dropdown-item" href="index.php">AR /VR Design </a></li>
                                     <li><a class="dropdown-item" href="graphic-designing.php">Graphics Design </a></li>
-                                    <li><a class="dropdown-item" href="website.php">Website Maintenance </a></li>
+                                    <!-- <li><a class="dropdown-item" href="website.php">Website Maintenance </a></li> -->
                                     <li><a class="dropdown-item" href="logo-designing.php">Logo Designing </a></li>
                                 </ul>
                             </li>
@@ -177,14 +189,18 @@
                                     Digital Marketing <i class="fa fa-chevron-right custom-arrow-right float-end"></i>
                                 </a>
                                 <ul class="dropdown-menu custom-submenu">
-                                    <li><a class="dropdown-item" href="seo.php">Search Engine optimization </a></li>
-                                    <li><a class="dropdown-item" href="smo.php">Social Media Optimization </a></li>
+                                    <li><a class="dropdown-item" href="seo.php">Search Engine optimization(SEO) </a></li>
+                                    <li><a class="dropdown-item" href="smo.php">Social Media Optimization(SMO) </a></li>
                                     <li><a class="dropdown-item" href="movie-promotion.php">Movie Promotions </a></li>
                                     <li><a class="dropdown-item" href="product-brading.php">Product Branding </a></li>
                                 </ul>
                             </li>
+
+
+
+
                             <!-- CMS Designing -->
-                            <li class="dropdown-submenu">
+                            <!-- <li class="dropdown-submenu">
                                 <a class="dropdown-item submenu-toggle d-flex justify-content-between align-items-center" href="#">
                                     CMS Designing <i class="fa fa-chevron-right custom-arrow-right float-end"></i>
                                 </a>
@@ -194,6 +210,35 @@
                                     <li><a class="dropdown-item" href="joomla-web.php">Joomla Web Development </a></li>
                                     <li><a class="dropdown-item" href="drupal.php">Drupal Web Development </a></li>
                                 </ul>
+                            </li> -->
+                            <!-- Consultaion Services -->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item submenu-toggle d-flex justify-content-between align-items-center" href="index.php">
+                                    Consultation Services
+                                </a>
+                            </li>
+
+                            <!-- Domain Expertices -->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item submenu-toggle d-flex justify-content-between align-items-center" href="index.php">
+                                    Domain Expertices <i class="fa fa-chevron-right custom-arrow-right float-end"></i>
+                                </a>
+                                <ul class="dropdown-menu custom-submenu custom-domain">
+                                    <li><a class="dropdown-item" href="index.php">Retail & E-commerce</a></li>
+                                    <li><a class="dropdown-item" href="index.php">Healthcare,HMS & Life Sciences</a></li>
+                                    <li><a class="dropdown-item" href="index.php">Finance & Banking</a></li>
+                                    <li><a class="dropdown-item" href="index.php">Education –  S&EM System</a></li>
+                                    <li><a class="dropdown-item" href="index.php">CRM</a></li>
+                                    <li><a class="dropdown-item" href="index.php">CMS</a></li>
+                                    <li><a class="dropdown-item" href="index.php">RealEstate & PropManage</a></li>
+                                    <li><a class="dropdown-item" href="index.php">Travel & Hospitality</a></li>
+                                    <li><a class="dropdown-item" href="index.php">Media & Entertainment</a></li>
+                                    <li><a class="dropdown-item" href="index.php">Government & Public Sector</a></li>
+                                    <li><a class="dropdown-item" href="index.php">Cybersecurity</a></li>
+                                    <li><a class="dropdown-item" href="index.php">Agriculture</a></li>
+                                    <li><a class="dropdown-item" href="index.php">Automotive</a></li>
+                                </ul>
+
                             </li>
                         </ul>
                     </li>
@@ -288,6 +333,17 @@
     </div>
 </div>
 
+
+<script>
+    window.addEventListener("scroll", function() {
+        const navbar = document.querySelector(".custom-navbar");
+        if (window.scrollY > 50) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
+        }
+    });
+</script>
 
 
 

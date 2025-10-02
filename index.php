@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<!-- <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="Vcreate Technoloy" />
@@ -9,30 +9,45 @@
         content="Website Development Company in London, Website Development Company in Dubai, Website Development Company in Mumbai, Website Development Company in Pune, Website Development Company in Nagpur," />
     <meta name="author" content="Webopick.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Vcreate Technologies</title>
+    <title>Vcreate Tech Global / Vcreate Technologies</title>
 
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome 7 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
 
-    <!-- v4 compatibility for old "fa fa-..." class names -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/v4-shims.min.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 
-    <!-- ✅ Preload images to remove delay -->
     <link rel="preload" as="image" href="images/main-slider/vcreatetech_bg1.png">
     <link rel="preload" as="image" href="images/main-slider/bg5.jpg">
     <link rel="preload" as="image" href="images/main-slider/bg6.1.jpeg">
     <link rel="preload" as="image" href="images/main-slider/ai.png">
 
-    <!-- owl caroual -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
-    <!-- Font icon -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head> -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Vcreate Tech Global / Vcreate Technologies</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/v4-shims.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" as="image" href="images/main-slider/vcreatetech_bg1.png">
+
+    <script src="js/meta.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 
@@ -156,8 +171,8 @@
             <!-- Slide 3 -->
             <div class="item">
                 <picture>
-                    <source media="(min-width:768px)" srcset="images/main-slider/vcreatetech_mainbg3.jpg">
-                    <img src="images/main-slider/vcreatetech_mobile3.jpg" alt="AI" class="slide-img">
+                    <source media="(min-width:768px)" srcset="images/main-slider/vcreatetech-slide3.png">
+                    <img src="images/main-slider/vcreatetech-slide3mobile.png" alt="AI" class="slide-img">
                 </picture>
 
                 <div class="slider-caption">
@@ -229,7 +244,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="gradient-box d-flex align-items-center">
-                            <img src="images/main-slider/img1.png" alt="Tech Team" class="img-fluid rounded-4 ps-5">
+                            <!-- <img src="images/main-slider/img1.png" alt="Tech Team" class="img-fluid rounded-4 ps-5"> -->
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -267,7 +282,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="gradient-box-vc2 d-flex align-items-center">
-                            <img src="images/main-slider/img2.1.png" alt="Tech Team" class="img-fluid rounded-4 ps-5">
+                            <!-- <img src="images/main-slider/img2.1.png" alt="Tech Team" class="img-fluid rounded-4 ps-5"> -->
                         </div>
                     </div>
 
@@ -281,7 +296,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="gradient-box d-flex align-items-center third-vct">
-                            <img src="images/main-slider/img3.png" alt="Tech Team" class="img-fluid rounded-4 ps-5">
+                            <!-- <img src="images/main-slider/img3.png" alt="Tech Team" class="img-fluid rounded-4 ps-5"> -->
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -318,7 +333,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="gradient-box-vc2 d-flex align-items-center fourth-vct">
-                            <img src="images/main-slider/img4.png" alt="Tech Team" class="img-fluid rounded-4 ps-5">
+                            <!-- <img src="images/main-slider/img4.png" alt="Tech Team" class="img-fluid rounded-4 ps-5"> -->
                         </div>
                     </div>
 

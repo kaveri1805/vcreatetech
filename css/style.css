@@ -215,7 +215,8 @@ body {
 /* Change background and text when submenu is open */
 .dropdown-submenu.open > .submenu-toggle {
   color: #fff !important;
-background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);}
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+}
 
 /* Also apply hover effect */
 .dropdown-submenu > .submenu-toggle:hover .custom-arrow-right {
@@ -305,6 +306,34 @@ background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);}
     overflow-y: auto;
   }
 }
+
+/* for domains expertices services */
+/* Style the custom submenu */
+.custom-domain {
+  max-height: 300px; /* Adjust height as needed */
+  overflow-y: auto; /* Enable vertical scroll */
+  overflow-x: hidden; /* Hide horizontal scroll */
+}
+
+/* Optional: Style the scrollbar for modern browsers */
+.custom-domain::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+}
+
+.custom-domain::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track background */
+  border-radius: 3px;
+}
+
+.custom-domain::-webkit-scrollbar-thumb {
+  background: #888; /* Scrollbar thumb color */
+  border-radius: 3px;
+}
+
+.custom-domain::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Thumb on hover */
+}
+
 /* social icons */
 
 .social-icons ul {
@@ -431,12 +460,30 @@ background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);}
   color: #0a0a0a;
 }
 
-/* navbar */
+/* Navbar */
 /* .mega-menu .menu-logo img {
   width: 200px;
 } */
 
 /* Navbar fixed */
+
+/* .custom-navbar {
+  position: relative;
+  width: 100%;
+  transition: all 0.4s ease;
+  background: transparent;
+}
+
+.custom-navbar.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background: linear-gradient(to bottom, #0c1b2c, #174e8c, #51adc7);
+} */
+
+
 .header .mega-menu {
   position: fixed;
   right: 0;
@@ -559,6 +606,7 @@ background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);}
   margin-bottom: 0.65em;
 }
 
+/* For main banner slider image */
 /* For Main Slide AI Animation */
 .ai-img {
   position: absolute;
@@ -915,7 +963,7 @@ body {
 }
 
 /* Gradient Box with Image */
-.gradient-box {
+/* .gradient-box {
   border-radius: 20px;
   background: linear-gradient(
     to bottom,
@@ -923,9 +971,21 @@ body {
     rgba(255, 255, 254, 0) 50%,
     rgba(0, 30, 128, 0.5) 100%
   );
+  background-image: url(../images/img3.jpg);
+  background-repeat: no-repeat;
   padding: 20px;
   height: 530px;
   width: 125%;
+} */
+.gradient-box {
+  border-radius: 25px;
+  background-image: url("../images/main-slider/vcreatetech-uk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 530px;
+  width: 125%;
+  border: 15px solid #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .gradient-box img {
@@ -948,7 +1008,7 @@ body {
 @media (max-width: 767px) {
   .gradient-box {
     width: 100%;
-    height: auto;
+    /* height: auto; */
     padding: 15px;
   }
 
@@ -961,6 +1021,10 @@ body {
   .content-box {
     margin-left: 0;
     margin-top: 20px;
+    padding: 15px;
+  }
+  .gradient-box-vc2 {
+    width: 100%;
     padding: 15px;
   }
 }
@@ -996,7 +1060,7 @@ body {
 }
 /* for vc2 */
 .gradient-box-vc2 {
-  border-radius: 20px;
+  /* border-radius: 20px;
   background: linear-gradient(
     to bottom,
     rgba(247, 247, 247, 0) 0%,
@@ -1007,7 +1071,17 @@ body {
 
   padding: 20px;
   height: 530px;
+  width: 125%; */
+  border-radius: 25px;
+  background-image: url("../images/main-slider/vcreatetech-dubai.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
   width: 125%;
+
+  border: 15px solid #fff;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   margin-left: -84px;
 }
 
@@ -1023,6 +1097,7 @@ body {
   padding: 35px 91px;
   margin-right: -111px;
   position: relative;
+  top: 10px;
 }
 .content-box-vc2 p {
   margin-right: 20px;
@@ -1032,7 +1107,7 @@ body {
   .gradient-box-vc2 {
     padding: 20px;
     width: 100%;
-    height: auto;
+    /* height: auto; */
     margin-left: 0px;
   }
 
@@ -1046,23 +1121,51 @@ body {
     margin: 20px 0 0 0;
     padding: 15px;
   }
+  .gradient-box.third-vct {
+    width: 100%;
+    padding: 15px;
+  }
+  .gradient-box-vc2.fourth-vct {
+    width: 100%;
+    padding: 15px;
+  }
 }
 /* third card */
 .third-vct {
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     rgba(0, 40, 104, 0.9) 0%,
     rgba(255, 255, 255, 0.7) 50%,
     rgba(191, 10, 48, 0.9) 100%
-  );
+  ); */
+  border-radius: 25px;
+  background-image: url("../images/main-slider/vcreatetech-usa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 125%;
+
+  border: 15px solid #fff;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 .fourth-vct {
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     rgba(242, 127, 33, 0.9) 0%,
     rgba(255, 255, 255, 0.7) 50%,
     rgba(21, 134, 70, 0.9) 100%
-  );
+  ); */
+  border-radius: 25px;
+  background-image: url("../images/main-slider/vcreatetech-india.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 125%;
+
+  border: 15px solid #fff;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .footer-country i {
@@ -1321,9 +1424,8 @@ body {
 /* Mobile navbar background */
 @media (max-width: 991px) {
   .navbar-collapse {
-    /* background-color: #fff; */
-    background: linear-gradient(90deg, #007bff, #00bfff) !important;
-
+    /* background: linear-gradient(90deg, #007bff, #00bfff) !important; */
+    background: linear-gradient(to bottom, #0c1b2c, #174e8c, #51adc7);
     text-align: center;
     padding: 20px 0;
     /* overflow-y: auto;
@@ -1392,7 +1494,7 @@ body {
   text-align: center;
   font-size: 14px;
   border-radius: 90%;
-  background: #0a0837;
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
   color: #fff;
   transition: opacity 0.4s ease-in-out;
   opacity: 0;
@@ -1649,13 +1751,25 @@ body {
   filter: brightness(60%);
   display: block;
 }
+/* Remove fixed height on tablets and smaller screens */
+@media (max-width: 1024px) { /* tablets and smaller */
+  .uk-img img {
+    height: auto; /* height adjusts automatically */
+  }
+}
 
+/* Optionally, you can target mobile specifically */
+@media (max-width: 768px) { /* small screens */
+  .uk-img img {
+    height: auto;
+  }
+}
 .uk-img:hover img {
   filter: brightness(100%);
   transform: scale(1.3);
 }
 .india-bg {
-  background-image: url(../images/country/india3.png);
+  background-image: url(../images/country/vcreatetech-india2.png);
   height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2163,7 +2277,7 @@ small {
 
 /* our team */
 .ourteam-bg {
-  background-image: url(../images/ourteam/bg3.jpg);
+  background-image: url(../images/ourteam/vcreatetech-ourteambg.png);
   height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2561,14 +2675,14 @@ small {
   }
 }
 .smo-bg {
-  background-image: url(../images/development/vcreatetch-smobg.png);
+  background-image: url(../images/development/vcreatetech-smobg.png);
   height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
 }
 @media (max-width: 768px) {
   .smo-bg {
-    background-image: url(../images/development/vcreatetch-smomobile.png);
+    background-image: url(../images/development/vcreatetech-smomobile.png);
     height: auto;
     min-height: 400px;
     background-size: cover;
@@ -2924,7 +3038,7 @@ small {
 
 /* Vcreate Group */
 
-.vcreate-bg {
+/* .vcreate-bg {
   background-image: url(../images/vcreategroup/img1.png);
   height: 600px;
   background-repeat: no-repeat;
@@ -2932,7 +3046,6 @@ small {
 }
 @media (max-width: 768px) {
   .vcreate-bg {
-    /* background-image: url(../images/vcreatetech-faqmobile.png); */
     height: auto;
     min-height: 400px;
     background-size: cover;
@@ -2972,4 +3085,114 @@ small {
   background-color: #1e4a7f;
   color: white;
   margin: 10px;
+} */
+
+/* for water wave */
+
+/* iPads (portrait & landscape) */
+/* @media (min-width: 768px) and (max-width: 1024px) {
+  .faq-bg {
+    height: 360px;
+  }
+} */
+
+/* Large Android tablets like Samsung Galaxy Tab S series */
+@media (min-width: 800px) and (max-width: 1280px) {
+  .uk-bg {
+    height: 360px;
+  }
+  .india-bg {
+    height: 360px;
+  }
+  .usa-bg {
+    height: 360px;
+  }
+  .uae-bg{
+    height: 360px;
+  }
+  .career-bg{
+    height: 360px;
+  }
+  .contact-bg{
+    height: 360px;
+  }
+  .ai-bg {
+    height: 360px;
+  }
+  .product-bg {
+    height: 360px;
+  }
+  .mobileapp-bg {
+    height: 360px;
+  }
+  .blockchain-bg {
+    height: 360px;
+  }
+  .ecommerse-bg {
+    height: 360px;
+  }
+  .realestate-bg {
+    height: 360px;
+  }
+  .software-bg {
+    height: 360px;
+  }
+  .web-bg {
+    height: 360px;
+  }
+  .graphic-bg {
+    height: 360px;
+  }
+  .logo-bg {
+    height: 360px;
+  }
+  .seo-bg {
+    height: 360px;
+  }
+  .smo-bg {
+    height: 360px;
+  }
+  .movie-bg {
+    height: 360px;
+  }
+  .productbrading-bg {
+    height: 360px;
+  }
+  .hospital-bg{
+    height: 360px;
+  }
+  .school-bg{
+    height: 360px;
+  }
+  .ims-bg{
+    height: 360px;
+  }
+  .marriage-bg{
+    height: 360px;
+  }
+  .news-bg{
+    height: 360px;
+  }
+  .oem-bg{
+    height: 360px;
+  }
+  .ams-bg{
+    height: 360px;
+  }
+  .port-bg{
+    height: 360px;
+  }
+  .blog-bg{
+    height: 360px;
+  }
+  .faq-bg {
+    height: 360px;
+  }
 }
+
+/* Surface tablets and bigger Android tablets */
+/* @media (min-width: 1024px) and (max-width: 1366px) {
+  .faq-bg {
+    height: 600px;
+  }
+} */

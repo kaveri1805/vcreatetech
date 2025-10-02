@@ -273,6 +273,14 @@ document.querySelectorAll('.location-card').forEach(card => {
     document.getElementById('mapCountry').innerText = country;
     document.getElementById('mapAddress').innerText = address;
     document.getElementById('mapPhone').innerText = phone;
+
+    // Update the href of the phone link dynamically
+        const phoneLink = document.querySelector('#mapPhone').closest('a');
+        if (phoneLink) {
+          // Remove non-numeric characters for tel: format
+          const numericPhone = phone.replace(/\D/g, '');
+          phoneLink.href = `tel:+${numericPhone}`;
+        }
   });
 });
 
@@ -520,16 +528,16 @@ document.addEventListener("DOMContentLoaded", () => {
     
     { name: "UK", url: "uk.php" },
 
-    { name: "Services - AI Development", url: "ai-dev.php" },
+    { name: "Services - AI Solutions", url: "ai-dev.php" },
     { name: "Services - Product Development", url: "productdev.php" },
     { name: "Services - Mobile Applications Development", url: "mobiledev.php" },
-    { name: "Services - BlockChain Development", url: "blockchain.php" },
+    { name: "Services - BlockChain Technology", url: "blockchain.php" },
     { name: "Services - Ecommerse Development", url: "ecommersedev.php" },
     { name: "Services - Reale State Development", url: "realestate.php" },
     { name: "Services - Software Development", url: "softwaredev.php" },
     { name: "Services - Graphic Designing", url: "graphic-designing.php" },
     { name: "Services - Website Maintenance Designing", url: "website.php" },
-    { name: "Services - Web Designing", url: "web-designing.php" },
+    { name: "Services - UI/UX Designing", url: "web-designing.php" },
     { name: "Services - Logo Designing", url: "logo-designing.php" },
     { name: "Services - Search Engine Optimization", url: "seo.php" },
     { name: "Services - Social Media Optimization", url: "smo.php" },
