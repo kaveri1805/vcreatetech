@@ -753,14 +753,14 @@ body {
   background-image: url(../images/main-slider/vcreatetech_bg1.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 600px ;
 } */
 
 /* .header-bg {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 600px ;
 }
 @media (max-width: 768px) {
   .header-bg {
@@ -794,7 +794,7 @@ body {
 /* Images inside <picture> should fill screen */
 .header-bg picture img {
   width: 100%;
-  height: 600px;
+  height: 600px ;
   object-fit: cover; /* Maintains aspect ratio */
 }
 
@@ -1528,7 +1528,7 @@ body {
 /* contact-us */
 .contact-bg {
   background-image: url(../images/contactus/vcreatetech_contactbg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -1725,7 +1725,7 @@ body {
 /* Country uk,India*/
 .uk-bg {
   background-image: url(../images/country/vcreatetech_uk.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -1770,7 +1770,7 @@ body {
 }
 .india-bg {
   background-image: url(../images/country/vcreatetech-india2.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -1784,7 +1784,7 @@ body {
 }
 .uae-bg {
   background-image: url(../images/country/vcreatetech-uaebg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -1798,7 +1798,7 @@ body {
 }
 .usa-bg {
   background-image: url(../images/country/vcreatetech-usabg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -1870,7 +1870,7 @@ body {
 /* Career page */
 .career-bg {
   background-image: url(../images/career/vcreatetech-bg2.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2089,7 +2089,7 @@ span {
 /* About-us */
 .about-bg {
   background-image: url(../images/aboutus/vcreatetech_bg2.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2278,7 +2278,7 @@ small {
 /* our team */
 .ourteam-bg {
   background-image: url(../images/ourteam/vcreatetech-ourteambg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2437,7 +2437,7 @@ small {
 /* Default desktop background */
 .ai-bg {
   background-image: url(../images/development/vcreatetech-aibg1.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2510,7 +2510,7 @@ small {
 
 .product-bg {
   background-image: url(../images/development/vcreatetech-productdevbg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2525,7 +2525,7 @@ small {
 }
 .mobileapp-bg {
   background-image: url(../images/development/vcreatetech-mobileapp.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2540,7 +2540,7 @@ small {
 }
 .blockchain-bg {
   background-image: url(../images/development/vcreatetech-blockbg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2556,7 +2556,7 @@ small {
 
 .ecommerse-bg {
   background-image: url(../images/development/vcreatetech-ecombg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2571,7 +2571,7 @@ small {
 }
 .realestate-bg {
   background-image: url(../images/development/vcreatetech-realbg1.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2586,7 +2586,7 @@ small {
 }
 .software-bg {
   background-image: url(../images/development/vcreatetech-softbg1.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2601,7 +2601,7 @@ small {
 }
 .web-bg {
   background-image: url(../images/development/vcreatetech-webbg1.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2616,7 +2616,7 @@ small {
 }
 .graphic-bg {
   background-image: url(../images/development/vcreatetech-graphicbg1.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2631,7 +2631,7 @@ small {
 }
 .website-bg {
   background-image: url(../images/development/vcreatetech-websitebg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2646,7 +2646,7 @@ small {
 }
 .logo-bg {
   background-image: url(../images/development/vcreatetech-logobg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2661,7 +2661,7 @@ small {
 }
 .seo-bg {
   background-image: url(../images/development/vcreatetech-seobg1.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2676,7 +2676,7 @@ small {
 }
 .smo-bg {
   background-image: url(../images/development/vcreatetech-smobg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2691,7 +2691,7 @@ small {
 }
 .movie-bg {
   background-image: url(../images/development/vcreatetech-moviebg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2706,7 +2706,7 @@ small {
 }
 .productbrading-bg {
   background-image: url(../images/development/vcreatetech-brand2.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2721,7 +2721,7 @@ small {
 }
 .cmsweb-bg {
   background-image: url(../images/development/vcreatetech-cmswebbg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2736,7 +2736,7 @@ small {
 }
 .wordpress-bg {
   background-image: url(../images/development/vcreatetech-wordpressbg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2750,7 +2750,7 @@ small {
 }
 .joomla-bg {
   background-image: url(../images/development/vcreatetech-joomlabg1.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2766,7 +2766,7 @@ small {
 }
 .drupal-bg {
   background-image: url(../images/development/vcreatetech-drupalbg1.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2796,7 +2796,7 @@ small {
 }
 .hospital-bg {
   background-image: url(../images/products/vcreatetech-hmsbg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2810,7 +2810,7 @@ small {
 }
 .school-bg {
   background-image: url(../images/products/vcreatetech-smsbg1.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2824,7 +2824,7 @@ small {
 }
 .ims-bg {
   background-image: url(../images/products/vcreatetech-imsbg2.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2838,7 +2838,7 @@ small {
 }
 .oem-bg {
   background-image: url(../images/products/vcreatetech-oembg2.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2852,7 +2852,7 @@ small {
 }
 .ams-bg {
   background-image: url(../images/products/vcreatetech-amsbg3.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2866,7 +2866,7 @@ small {
 }
 .news-bg {
   background-image: url(../images/products/vcreatetech-newsbg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2880,7 +2880,7 @@ small {
 }
 .marriage-bg {
   background-image: url(../images/products/vcreatetech-marriagebg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2896,7 +2896,7 @@ small {
 
 .blog-bg {
   background-image: url(../images/blog/vcreatetech-blogbg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -2943,7 +2943,7 @@ small {
 /* portfolio */
 .port-bg {
   background-image: url(../images/portfolio/vcreatetech-portbg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -3022,7 +3022,7 @@ small {
 /* FAQ */
 .faq-bg {
   background-image: url(../images/vcreatetech-faqbg.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -3040,7 +3040,7 @@ small {
 
 /* .vcreate-bg {
   background-image: url(../images/vcreategroup/img1.png);
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -3092,107 +3092,211 @@ small {
 /* iPads (portrait & landscape) */
 /* @media (min-width: 768px) and (max-width: 1024px) {
   .faq-bg {
-    height: 360px;
+    height: 360px !important;
   }
 } */
 
 /* Large Android tablets like Samsung Galaxy Tab S series */
 @media (min-width: 800px) and (max-width: 1280px) {
   .uk-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .india-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .usa-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .uae-bg{
-    height: 360px;
+    height: 360px !important;
   }
   .career-bg{
-    height: 360px;
+    height: 360px !important;
   }
   .contact-bg{
-    height: 360px;
+    height: 360px !important;
   }
   .ai-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .product-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .mobileapp-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .blockchain-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .ecommerse-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .realestate-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .software-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .web-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .graphic-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .logo-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .seo-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .smo-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .movie-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .productbrading-bg {
-    height: 360px;
+    height: 360px !important;
   }
   .hospital-bg{
-    height: 360px;
+    height: 360px !important;
   }
   .school-bg{
-    height: 360px;
+    height: 360px !important;
   }
   .ims-bg{
-    height: 360px;
+    height: 360px !important;
   }
   .marriage-bg{
-    height: 360px;
+    height: 360px !important;
   }
   .news-bg{
-    height: 360px;
+    height: 360px !important;
   }
   .oem-bg{
-    height: 360px;
+    height: 360px !important;
   }
   .ams-bg{
-    height: 360px;
+    height: 360px !important;
   }
   .port-bg{
-    height: 360px;
+    height: 360px !important;
   }
   .blog-bg{
-    height: 360px;
+    height: 360px !important;
   }
   .faq-bg {
-    height: 360px;
+    height: 360px !important;
   }
 }
+
+/* All iPad sizes */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .uk-bg {
+    height: 460px !important;
+  }
+  .india-bg {
+    height: 460px !important;
+  }
+  .usa-bg {
+    height: 460px !important;
+  }
+  .uae-bg{
+    height: 460px !important;
+  }
+  .career-bg{
+    height: 460px !important;
+  }
+  .contact-bg{
+    height: 460px !important;
+  }
+  .ai-bg {
+    height: 460px !important;
+  }
+  .product-bg {
+    height: 460px !important;
+  }
+  .mobileapp-bg {
+    height: 460px !important;
+  }
+  .blockchain-bg {
+    height: 460px !important;
+  }
+  .ecommerse-bg {
+    height: 460px !important;
+  }
+  .realestate-bg {
+    height: 460px !important;
+  }
+  .software-bg {
+    height: 460px !important;
+  }
+  .web-bg {
+    height: 460px !important;
+  }
+  .graphic-bg {
+    height: 460px !important;
+  }
+  .logo-bg {
+    height: 460px !important;
+  }
+  .seo-bg {
+    height: 460px !important;
+  }
+  .smo-bg {
+    height: 460px !important;
+  }
+  .movie-bg {
+    height: 460px !important;
+  }
+  .productbrading-bg {
+    height: 460px !important;
+  }
+  .hospital-bg{
+    height: 460px !important;
+  }
+  .school-bg{
+    height: 460px !important;
+  }
+  .ims-bg{
+    height: 460px !important;
+  }
+  .marriage-bg{
+    height: 460px !important;
+  }
+  .news-bg{
+    height: 460px !important;
+  }
+  .oem-bg{
+    height: 460px !important;
+  }
+  .ams-bg{
+    height: 460px !important;
+  }
+  .port-bg{
+    height: 460px !important;
+  }
+  .blog-bg{
+    height: 460px !important;
+  }
+  .faq-bg {
+    height: 460px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ai-img,
+  .ai-wave {
+    left: 70% !important;
+    top: 57% !important;
+    width: 350px !important;
+  }
+}
+
 
 /* Surface tablets and bigger Android tablets */
 /* @media (min-width: 1024px) and (max-width: 1366px) {
   .faq-bg {
-    height: 600px;
+    height: 600px ;
   }
 } */

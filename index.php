@@ -119,9 +119,9 @@
                                     <p class="mb-4 text-white">
                                         At <strong>VcreateTech Global</strong>, we don’t just follow the future — we create it with intelligent, real-time AI solutions.
                                     </p>
-                                    <button class="contact-btn">Contact Now
+                                    <a class="contact-btn bg-white text-decoration-none" href="contact-us.php">Contact Now
                                         <i class="fa fa-arrow-right mx-2" style="color: #0d304d;"></i>
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
 
@@ -154,9 +154,9 @@
                                         At <strong>VcreateTech Global</strong>, we provide next-generation consulting and services designed to supercharge your digital journey.
                                     </p>
 
-                                    <button class="contact-btn">Contact Now
+                                    <a class="contact-btn bg-white text-decoration-none" href="contact-us.php">Contact Now
                                         <i class="fa fa-arrow-right mx-2" style="color: #0d304d;"></i>
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
 
@@ -185,9 +185,9 @@
                                         At <strong>VcreateTech Global</strong>, we deliver AI-powered IT solutions designed for bold ideas, rapid growth, and smarter execution.
                                     </p>
 
-                                    <button class="contact-btn">Contact Now
+                                    <a class="contact-btn bg-white text-decoration-none" href="contact-us.php">Contact Now
                                         <i class="fa fa-arrow-right mx-2" style="color: #0d304d;"></i>
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
 
@@ -256,7 +256,7 @@
                                 Innovating with AI, Blockchain & Modern Code
                                 Vcreate Tech Global Limited is a UK-based technology leader delivering AI-powered automation, Blockchain platforms, and custom software solutions. Using advanced languages like Python, Rust, Solidity, and TypeScript, we build secure, scalable, and future-ready applications that drive digital transformation.From fintech to healthcare, retail to media, we empower UK businesses with smart contracts, intelligent tools, and next-gen digital solutions that accelerate growth and innovation.
                             </p>
-                           <a href="uk.php" class="btn btn-outline-dark px-4 rounded-2 text-white" style="background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);">
+                            <a href="uk.php" class="btn btn-outline-dark px-4 rounded-2 text-white" style="background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);">
                                 Read More →
                             </a>
                         </div>
